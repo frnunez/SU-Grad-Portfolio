@@ -1,8 +1,9 @@
 # SU-Grad-Portfolio
 Grad School Projects / Portfolio
 
-This repository is where I am keeping several projects I worked on while obtaining my MS in Applied Data Science at Syracuse University. I will refer to this directory when posting these projects in my github page.
+This repository is where I am keeping several projects I worked on while obtaining my MS in Applied Data Science at Syracuse University. This is not the full list of projects I worked on, however I will refer to this directory when posting these projects in my github page.
 <br>
+
 ## Current Projects Uploaded
 - IST 652 - Scripting for Data Analysis - DCA Inspections - Data Exploration and Prediction Project
 - IST 707 - Data Analytics - Classification of Autism Spectrum Disorder Screening Data - ASD Screening Classification Project
