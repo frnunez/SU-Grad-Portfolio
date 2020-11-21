@@ -1,0 +1,232 @@
+#### Data Wranging Cheatsheet (Using Iris Set)
+#### https://towardsdatascience.com/a-checklist-for-data-wrangling-8f106c093fef
+
+## Setup
+
+    import pandas as pd
+    import numpy as np
+
+    ## Connecting to working directories ##
+    #######################################
+    
+    import os
+    
+    # show current working directory
+    os.getcwd()
+    
+    # list files in the directory
+    os.listdir()
+    
+    # change working directory
+    os.chdir("/PATH/TO/NEW/DIRECTORY")
+
+## Loading Data
+
+    # import from a csv file
+    data = pd.read_csv("../Datasets/iris.csv")
+    
+    # copying a dataset
+    df = data.copy()
+    
+    # call the head function
+    df.head()
+
+## Initial Data Screening
+
+    df.info()
+
+    # number of rows and columns
+    df.shape
+
+    # column names
+    df.columns
+    
+    '''
+    >> Index(['sepal_length', 'SEpal_Width', 'petal_length', 'petal_width',
+        'species'],
+        dtype='object')
+    '''
+
+    # number of unique values
+    df["species"].nunique()
+
+    '''
+    >> 4
+    '''
+
+    # name of the unique values
+    df["species"].unique()
+
+    '''
+    >> array(['setosa', 'setosaaa', 'versicolor', 'virginica'], dtype=object)
+    '''
+
+    # count of categorical data
+    df["species"].value_counts()
+
+    '''
+    >> 
+    versicolor    50
+    virginica     50
+    setosa        49
+    setosaaa       1
+    Name: species, dtype: int64
+    '''
+
+## Missing value treatment
+
+    # show NaN values per feature
+    df.isnull().sum()
+
+    '''
+    >>
+    sepal_length    2
+    SEpal_Width     0
+    petal_length    0
+    petal_width     0
+    species         0
+    dtype: int64
+    '''
+
+    # NaN values as % of total observations
+    df.isnull().sum()*100/len(df)
+
+    ## Drop row/column (null values) ##
+    ###################################
+
+    # drop all rows containing null
+    df.dropna()
+
+    # drop all columns containing null
+    df.dropna(axis=1)
+
+    # drop columns with less than 5 NaN values
+    df.dropna(axis=1, thresh=5)
+
+    ## Replace values (missing w/ actual) ##
+    ########################################
+    
+    # replace all na values with -9999
+    df.fillna(-9999)
+
+    [# additional tip: you can also replace any specific cell values
+    df.at[1, "sepal_length"]= 9999]
+
+    # fill na values with NaN
+    df.fillna(np.NaN)
+
+    # fill na values with strings
+    df.fillna("data missing")
+
+    # fill missing values with mean column values
+    df.fillna(df.mean())
+
+    # replace na values of specific columns with mean value
+    df["sepal_length"].fillna(df["sepal_length"].mean())
+
+    ## Interpolate (for time seres) ##
+    ##################################
+
+    # interpolation of missing values (useful in time-series)
+    # all dataframe
+    df.interpolate() 
+
+    # specific column
+    df["sepal_length"].interpolate() 
+
+## Subsetting & working with columns
+
+    # select a column by column name
+    df["sepal_length"]
+
+    # select multiple columns by column name
+    df[["sepal_length", "sepal_width", "petal_length", "spp"]]
+
+    # select a column by column number
+    df.iloc[:, 2:4]
+
+    # select multiple columns by column number
+    df.iloc[:, [1,3,4]]
+
+    # drop a column 
+    df.drop("sepal_length", axis=1)
+
+    ## calculated columns ##
+    ########################
+
+    # add new calculated column
+    df['new'] = df["sepal_length"]*2
+
+    # create a conditional calculated column
+    df['newcol'] = ["short" if i<3 else "long" for i in df["sepal_width"]] 
+
+
+    ## convert type ##
+    ##################
+    # convert categorical string values to numeric values.
+    df.replace({"Species":{"setosa":1, "versicolor":2, "virginica":3}})
+
+    ## calculate values ##
+    ######################
+    # calculate mean of each of two columns
+    df[["sepal_length", "sepal_width"]].mean()
+
+    # calculate sum and mean of each column
+    df[["sepal_length", "sepal_width"]].agg([np.sum, np.mean])
+
+
+    ## other syntax ##
+    ##################
+    # transposing a dataset
+    df.T
+
+    # create a list of columns
+    df.columns.tolist()
+
+    # sorting values in ascending order
+    df.sort_values(by = "sepal_width", ascending = True)
+
+    # change column name
+    df.rename(columns={"old_name": "new_name"})
+
+## Filtering: working with rows
+
+    ## using the row index location: ##
+    ###################################
+    # select rows with index number 3 to 10
+    df.iloc[3:10,]
+    # select rows with index name
+    df.loc["index1", "index2"]
+    # finding rows with specific strings
+    df[df["species"].isin(["setosa"])]
+
+    ## conditional filtering ##
+    ###########################
+    # simple conditional filtering to filter rows with sepal_length>=5
+    df.query('sepal_length>=5') # or
+    df[df.sepal_length>= 5]
+    # filtering rows with multiple values e.g. 0.2, 0.3
+    df[df["petal_length"].isin([0.2, 0.3])]
+    # multi-conditional filtering
+    df[(df.sepal_length>1) & (df.species=="setosa") | (df.sepal_width<3)]
+
+    ## get rid of a row if needed ##
+    ################################
+    # drop rows
+    df.drop(df.index[1]) # 1 is row index to be deleted
+
+## Grouping
+    # return a dataframe object grouped by "species" column
+    df.groupby("species")
+
+    # return mean a column groupby "species" categories
+    df["sepal_length"].groupby(df["species"]).mean()
+
+    # group each column by "species", then apply multiple operation on each feature 
+    df.groupby("species").agg([np.sum, np.mean, np.std])
+
+## Joining/merging
+    # SQL style joining
+    df1 = df[["sepal_length", "sepal_width"]]
+    df2 = df[["sepal_length", "petal_length"]]
+    dfx = pd.concat([df1, df2], axis = 1)
