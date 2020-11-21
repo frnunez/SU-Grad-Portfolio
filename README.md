@@ -9,7 +9,7 @@ This repository is where I am keeping several projects I worked on while obtaini
 - IST 707 - Data Analytics - Classification of Autism Spectrum Disorder Screening Data - ASD Screening Classification Project
 - IST 718 - Big Data Analytics - NCAA Football Coach Salary Recommendation Project
 - IST 719 - Data Visualization - BlueBikes/Hubway User Statistics - Visualization of Blue Bike Share Data
-- Useful Cheatsheets - A collection of "cheatsheets" I've found online to share
+
 
 ## Additional Work Needed
 - Upload Projects to GitPage/Portfolio
