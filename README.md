@@ -9,7 +9,7 @@ This repository is where I am keeping several projects I worked on while obtaini
 - [IST 707 - Data Analytics - Classification of Autism Spectrum Disorder Screening Data - ASD Screening Classification Project](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/IST%20707%20-%20Data%20Analytics%20-%20Classification%20of%20ASD%20Screening%20Data)
 - [IST 718 - Big Data Analytics - NCAA Football Coach Salary Recommendation Project](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/IST%20718%20-%20Big%20Data%20Analytics)
 - [IST 719 - Data Visualization - BlueBikes/Hubway User Statistics - Visualization of Blue Bike Share Data](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/IST%20719%20-%20Data%20Visualization%20-%20Hubway%20Challenge%20Dataset%20Poster%20Design)
-- [NYC Covid-19 Data Exploration](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/Covid)
+- [NYC Covid-19 Data Exploration](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/NYC%20Covid-19%20Data%20Exploration)
 
 
 ## Additional Work Needed
