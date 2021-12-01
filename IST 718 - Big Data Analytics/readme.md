@@ -7,6 +7,7 @@ The purpose of this case study is to take real world data and provide insight, u
 <br>
 
 **Data Preparation**
+
 While we were supplied a coaches dataset to work with initially, this did not provide all the data needed to provide a thorough analysis. The following for data sets were combined to give us the information needed:
 
 - Coaches data – 2014 coaches data set provided containing school, conference, coach and various types of pay (school pay, total pay, bonus, bonus paid, assistant pay, buyout)
