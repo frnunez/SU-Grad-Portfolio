@@ -1,6 +1,6 @@
 # Covid Data
 
-This is where I am keeping the covid data I will be doing some data science on
+This is where I am keeping the covid data I will be doing some Data Science projects on
 
 
 <u>As Seen In</u><br>
