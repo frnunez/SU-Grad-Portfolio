@@ -9,7 +9,7 @@ to produce data summaries, lists and other structures.
 <br>
 <br>
 
-##Data Exploration and Prediction Project
+## Data Exploration and Prediction Project
 **EXPLORING THE NYC DEPARTMENT OF CONSUMER AFFAIRS INSPECTIONS DATA SET**
 **Background**
 
