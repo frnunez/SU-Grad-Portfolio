@@ -8,7 +8,7 @@ This repository is where I am keeping several projects I worked on while obtaini
 - IST 652 - Scripting for Data Analysis - DCA Inspections - Data Exploration and Prediction Project
 - IST 707 - Data Analytics - Classification of Autism Spectrum Disorder Screening Data - ASD Screening Classification Project
 - IST 718 - Big Data Analytics - NCAA Football Coach Salary Recommendation Project
-- IST 719 - Data Visualization - BlueBikes/Hubway User Statistics - Visualization of Blue Bike Share Data
+- [IST 719 - Data Visualization - BlueBikes/Hubway User Statistics - Visualization of Blue Bike Share Data](https://github.com/frnunez/SU-Grad-Portfolio/tree/master/IST%20719%20-%20Data%20Visualization%20-%20Hubway%20Challenge%20Dataset%20Poster%20Design)
 - NYC Covid
 
 
