@@ -1,5 +1,6 @@
 # IST652 Scripting for Data Analysis
 **Assignment**
+
 For this assignment, you are to make an initial plan for a project. In the final project you
 will demonstrate your ability to write Python scripts to access and amass data from fields
 in one or more of the three types of data studied in the course and to prepare and use data
