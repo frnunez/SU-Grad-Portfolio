@@ -1,5 +1,6 @@
 # IST719 Information Visualization
 **Assignment**
+
 For your final project, you will be creating an information visualization and presenting your work during a virtual poster session.
 
 ## Hubway Bikeshare Visualization Project
