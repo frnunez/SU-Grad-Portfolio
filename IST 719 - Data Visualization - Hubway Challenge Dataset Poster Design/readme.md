@@ -5,8 +5,6 @@ For your final project, you will be creating an information visualization and pr
 <br>
 <br>
 <br>
-<br>
-<br>
 ## Hubway Bikeshare Visualization Project
 **Visualization of Blue Bike Share**
 
@@ -35,4 +33,5 @@ The data set is available from the Hubway Challenge website at the link below:
 <br>
 
 **Project Poster**
+
 ![Project Poster](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/visualization/finalpostersmall.jpg)
