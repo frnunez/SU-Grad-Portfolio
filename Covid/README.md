@@ -1,4 +1,4 @@
-# Covid Data
+# NYC Covid-19 Data Exploration
 
 This is where I am keeping the covid data I will be doing some Data Science projects on
 
