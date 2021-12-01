@@ -10,6 +10,7 @@ This project was a collaborative effort by Antonio Llorens and Francisco Nunez-F
 Our target audience is bike sharing customers, company stakeholders, city authorities, academics, data related profesionals.
 
 **Background**
+/n
 Hubway is a bicycle sharing system in the Boston City area. Since its launch in 2001, Hubway has grown to more than 140 stations and more than 1300 bikes. In 2013, Hubway in parternship with the Metropolitan Area Planning Council, released data from more than a half million trips that were taken on Hubway bikes between its launch on July 28, 2011 until the end of September 2012. In 2018, Hubway was rebranded as Blue Bikes.
 
 
