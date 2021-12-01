@@ -1,7 +1,8 @@
-# SU-Grad-Portfolio + Data Science Blog Portfolio
+# Data Science Portfolio
 Grad School Projects / Portfolio
+Other Data Science Projects
 
-This repository is where I am keeping several projects I worked on while obtaining my MS in Applied Data Science at Syracuse University. This is not the full list of projects I worked on, however I will refer to this directory when posting these projects in my github page.
+This repository is where I am keeping several projects I worked on while obtaining my MS in Applied Data Science at Syracuse University. This is not the full list of projects I worked on, however I will refer to this directory when posting these projects in my github page. In additional I will add other independant projects I work on for the purpose of building up my github pages blog.
 <br>
 
 ## Current Projects Uploaded
