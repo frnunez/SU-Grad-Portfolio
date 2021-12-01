@@ -14,3 +14,8 @@ While we were supplied a coaches dataset to work with initially, this did not pr
 - Stadium capacity data – data scraped from www.collegegridirons.com containing stadium name, school, conference, capacity, and year opened
 - Graduation rates – 2012-2013 school year graduation reates obrainted from the NCAA containing borth GSR and FGR. 2006 cohort graduation rates were used. Contains Year, School. Conference, Sport, State, GSR, FGR
 - Win Loss Record – Win Loss record for last year (2019) scrapped from www.teamrankings.com
+<br>
+<br>
+<br>
+
+![Total Pay vs Capacity, GSR, Win Percentage(2019)](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/salary/IST_718_Lab_1_Final_MD_version_44_1.png)
