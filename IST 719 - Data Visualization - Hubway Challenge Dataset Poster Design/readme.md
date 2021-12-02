@@ -8,7 +8,7 @@ For your final project, you will be creating an information visualization and pr
 ## Hubway Bikeshare Visualization Project
 **Visualization of Blue Bike Share**
 
-This project was a collaborative effort by Antonio Llorens and Francisco Nunez-Fondeur. For this project we decided to visualize the data from the bike sharing platform to get a better understanding about who uses the bikes and for what purpose, as well as how people get around Boston. The main goal is to answer:
+This project was a collaborative effort by [Antonio Llorens](https://github.com/allloren) and Francisco Nunez-Fondeur. For this project we decided to visualize the data from the bike sharing platform to get a better understanding about who uses the bikes and for what purpose, as well as how people get around Boston. The main goal is to answer:
 
 1. Who is using Hubway?
 2. Where is everyone going?

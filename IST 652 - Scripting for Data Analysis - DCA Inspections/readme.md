@@ -19,3 +19,8 @@ The NYC Department of Consumer Affairs serves many roles. One of their chief rol
 [Department of Consumer Affairs (DCA) Inspections](https://data.cityofnewyork.us/Business/Inspections/jzhd-m6uv)
 
 The purpose of this project was to explore a large data set and make some predictions as to how many total inspections we should see at the end of the year.
+<br>
+<br>
+<br>
+
+![Total Cummulative Annual Inspections](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/inspections/IST652_DCA_Inspections_39_0.png)

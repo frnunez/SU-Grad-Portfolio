@@ -30,3 +30,9 @@ Autism Spectrum Disorder (ASD) refers to a range of conditions characterized by 
 **Objective**
 
 While the tool is a great first step, there aren’t many available datasets associated with clinical screenings and behavior. Per Fadi Fayez Thabtah, creator of the set, most available datasets on autism are genetic in nature. This set consists of the responses to behavior questions on the AQ-10 tool along with the results. In addition, 10 individual characteristics were made part of this set which have been used by the behavioral sciences experts for ASD detection. I intend to also use classification to determine the effectiveness of not just the AQ-10 tool but also the individual traits provided in diagnosing ASD by using classification and clustering algorithms. I will be using Decision Trees, Naïve Bayes, k-NN and Support Vector Machines.
+
+<br>
+<br>
+<br>
+
+![Confusion Matrix](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/asd/IST_707_ASD_31_3.png)
