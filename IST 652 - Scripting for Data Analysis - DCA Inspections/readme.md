@@ -23,4 +23,4 @@ The purpose of this project was to explore a large data set and make some predic
 <br>
 <br>
 
-![Total Cummulative Annual Inspections](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/inspections/IST652_DCA_Inspections_39_0.png)
+![Total Cumulative Annual Inspections](https://raw.githubusercontent.com/frnunez/frnunez.github.io/master/images/inspections/IST652_DCA_Inspections_39_0.png)
